@@ -28,7 +28,7 @@ else
 putchar(pre);
 putchar(post);
 putchar(third);
-if(post == 56 && pre == 55)
+if (post == 56 && pre == 55)
 {
 break;
 }
