@@ -22,13 +22,21 @@ if (post <= pre || third <= post)
 {
 continue;
 }
+
 else
 {
 putchar(pre);
 putchar(post);
 putchar(third);
+if(post == 56 && pre == 55)
+{
+break;
+}
+else
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }

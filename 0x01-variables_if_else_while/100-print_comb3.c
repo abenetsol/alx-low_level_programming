@@ -22,6 +22,10 @@ else
 {
 putchar(pre);
 putchar(post);
+if (pre == 56)
+{
+break;
+}
 putchar(',');
 putchar(' ');
 }
