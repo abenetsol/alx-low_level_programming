@@ -12,7 +12,7 @@ for (combo = 48; combo <= 57; combo++)
 {
 putchar(combo);
 
-if(combo == 57)
+if (combo == 57)
 {
 break;
 }
