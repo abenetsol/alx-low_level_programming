@@ -20,6 +20,7 @@ break;
 else
 {
 putchar(',');
+putchar(' ');
 }
 
 }
