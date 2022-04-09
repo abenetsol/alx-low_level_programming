@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int pre;
+int post;
+int pre2;
+int post2;
+for (pre = 48; pre <= 57; pre++)
+{
+
+for (post = 48; post <= 57; post++)
+{
+for(pre2 = 48; pre2 <= 57; pre2++)
+{
+for(post2 = 48; post2 <= 57; post2++)
+{
+
+
+if (post <= pre2 || post <= post2)
+{
+continue;
+}
+else
+{
+putchar(pre);
+putchar(post);
+putchar(' ');
+putchar(post2);
+putchar(pre2);
+if (pre2 == 57)
+{
+break;
+}
+putchar(',');
+putchar(' ');
+
+}
+}
+}
+
+}
+putchar('\n');
+}
+
+return(0);
+}
