@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Program to print "_putchar" followed by a new line.
  * Description: Don't include standard libraries.
@@ -13,7 +14,7 @@ while (car[i] != '\0')
 {
 _putchar(car[i]);
 i++;
-        }
+}
 _putchar('\n');
 
 return (0);
