@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-        char car[] = "_putchar";
-        int i = 0;
+char car[] = "_putchar";
+int i = 0;
 
-        while (car[i] != '\0')
-        {
-                _putchar(car[i]);
-                i++;
+while (car[i] != '\0')
+{
+_putchar(car[i]);
+i++;
         }
-        _putchar('\n');
+_putchar('\n');
 
-        return (0);
+return (0);
 }
