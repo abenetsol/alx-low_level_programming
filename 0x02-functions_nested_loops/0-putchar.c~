@@ -1,0 +1,16 @@
+#include "main.h"
+#include "_putchar.c"
+int main(void)
+{
+        char car[] = "_putchar";
+        int i = 0;
+
+        while (car[i] != '\0')
+        {
+                _putchar(car[i]);
+                i++;
+        }
+        _putchar('\n');
+
+        return (0);
+}
