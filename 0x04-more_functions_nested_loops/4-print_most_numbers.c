@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *print most number - prints numbers
+ * print_most_numbers - print numbers
  *
- *Return: Always 0.
+ * Return: Always 0.
  */
 void print_most_numbers(void)
 {
