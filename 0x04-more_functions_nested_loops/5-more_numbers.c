@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  *more_numbers - print number
+ *
  *Return: Always 0.
  */
+
 void more_numbers(void)
 {
 
@@ -10,6 +12,7 @@ int count;
 int num1;
 int num2;
 int result;
+
 count = 0;
 result = 0;
 while (count < 10)
