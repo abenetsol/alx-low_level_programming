@@ -3,6 +3,7 @@
  *print number - prints number 0 - 9 followed by a new line
  *Return: Always 0.
  */
+
 void print_numbers(void)
 {
 int i;
