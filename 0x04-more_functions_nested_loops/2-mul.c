@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * mul - multiples input and outputs the result .
+ * mul -multiples two integers
  *@a: print int
  *@b: print int
  *Return: Always  0.
