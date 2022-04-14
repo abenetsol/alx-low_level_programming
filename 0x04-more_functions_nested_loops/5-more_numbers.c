@@ -6,15 +6,35 @@
 void more_numbers(void)
 {
 
-int count,num;
+int count;
+int num1;
+int num2;
+int result;
 count = 0;
+result = 0;
 while (count < 10)
 {
-num = 0
-while(num <= 14)
+while(result <= 14)
 {
-_putchar(num + '0');
+if(result < 10)
+{
+num2 = result;
 }
+
+else
+{
+num1 = result / 10;
+num2 = result % 10;
+_putchar (num1 + '0');
+}
+
+_putchar(num2 + '0');
+
+result++;
+}
+count++;
+result = 0;
 _putchar('\n');
 }
+
 }
