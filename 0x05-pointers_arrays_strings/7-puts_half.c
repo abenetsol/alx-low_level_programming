@@ -5,7 +5,7 @@
  *
  *Return: void meaning correct output
  */
-vodi put_half(char *str)
+void put_half(char *str)
 {
 int a, last;
 
