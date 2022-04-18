@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *put_half - print second half of the string
+ *puts_half - print second half of the string
  *@str: pointer that value changes
  *
  *Return: void meaning correct output
