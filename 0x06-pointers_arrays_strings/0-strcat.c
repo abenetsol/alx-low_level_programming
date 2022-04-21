@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *_strcat - functions concacatenates two strings
+ *_strcat - concacatenates two strings
  *@dest: input that value changes
  *@src: input that second string
  *Return: dest
-
 */
+
 char *_strcat(char *dest, char *src)
 {
 int i, j;
