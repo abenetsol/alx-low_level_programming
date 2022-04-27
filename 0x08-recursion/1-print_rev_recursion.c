@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_print_rev -prints a string in reverse
- *@s pointer block of memory  to fill
+ *@s: pointer block of memory  to fill
  *Return void
  */
 
