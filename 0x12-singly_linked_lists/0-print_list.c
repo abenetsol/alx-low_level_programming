@@ -6,10 +6,9 @@
  */
 size_t print_list(const list_t *h)
 {
-size_t nodes;
-nodes = 0;
+size_t nodes = 0;
 
-while (h != NULL)
+while (h)
 {
 if (h->str == NULL)
 printf("[%u] %s\n", 0, "(nil)");
