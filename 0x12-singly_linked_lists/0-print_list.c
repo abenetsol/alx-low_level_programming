@@ -11,9 +11,9 @@ size_t nodes = 0;
 while (h)
 {
 if (h->str == NULL)
-printf("[%u] %s\n", 0, "(nil)");
+printf("[0] (nil)\n");
 else
-printf("[%u] %s\n", h->len, h->str);
+printf("[%d] %s\n", h->len, h->str);
 h = h->next;
 nodes++;
 }
