@@ -18,7 +18,7 @@ num++;
 printf("[%p] %d\n", (void *)head, head->n);
 if (diff > 0)
 head = head->next;
-else if (head -> next != NULL)
+else
 {
 printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 break;
