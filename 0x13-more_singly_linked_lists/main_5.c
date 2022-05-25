@@ -56,6 +56,6 @@ int main(void)
     node5->next = node3;
 	n = print_listint_safe(head);
 	printf("%lu\n", n);
-	free_listint_safe(&head);
+	_free_listint_safe(&head);
 	return (0);
 }
